@@ -1,0 +1,44 @@
+body{
+    background-color: #ccc;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    background-color: #8a9aea;
+    text-align: center;
+    font-size: 50px;
+}
+
+.destaque {
+    background: #bebee0;
+    padding: 5px;
+    border-bottom: 2px solid blue;
+}
+
+ul {
+    padding-left: 5px;
+}
+
+li{
+    list-style-position: inside;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+}
+
+.menu a{
+    padding: 16px;
+}
+
+.menu a:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
