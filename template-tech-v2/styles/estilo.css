@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3rem; /* Aproximadamente 50px */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 5px 25px black;
+    border-bottom: 2px solid #000000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.container img{
+    width: 35vw;
+} 
+
+.tech{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
