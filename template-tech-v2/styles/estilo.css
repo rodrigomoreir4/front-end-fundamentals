@@ -4,11 +4,23 @@ header{
 }
 
 .title {
-    font-size: 3rem; /* Aproximadamente 50px */
+    font-size: 8vw; /* 3rem = Aproximadamente 50px */
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 0 5px 25px black;
     border-bottom: 2px solid #000000;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 4vw; /* Ajusta para telas maiores */
+    }
+}
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 3rem; /* Tamanho fixo para telas maiores */
+    }
 }
 
 .container {
